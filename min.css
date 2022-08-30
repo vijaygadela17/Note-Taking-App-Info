@@ -1,0 +1,229 @@
+/* Style the navigation bar */
+.navbar {
+    width: 100%;
+    background-color: rgb(5, 124, 202);
+    overflow: auto;
+   
+  }
+  
+  /* Navbar links */
+  .navbar a {
+    float: right;
+    text-align: center;
+    padding: 17px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Navbar links on mouse-over */
+  .navbar a:hover {
+    background-color: #000;
+  }
+  
+  /* Current/active navbar link */
+  .active {
+    background-color: #28cce2;
+  }
+  
+  /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+  @media screen and (max-width: 500px) {
+    .navbar a {
+      float:none;
+      display: block;
+    }
+  }
+  .welcome{
+    font-size: large;
+    text-align: center;
+    background-color: rgb(255, 255, 254);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-top: 30px;
+    
+
+    
+  }
+  .features{
+    text-align: center;
+    color: rgb(16, 20, 20);
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    
+  }
+  .vijay{
+    position: relative;
+  }
+  .vijay{
+    image-resolution: 10%;
+  }
+  .notebook{
+     border-image-outset: 0ex;
+  }
+  .content{
+    text-align: left;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+    padding-left: 550px;
+    scroll-padding: 600px;
+    padding-top: 30px;
+  }
+  .note{
+    font-size: x-large;
+    text-align:left;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-left: 2000px;
+    padding-left: 30px;
+    padding-top: 10px;
+  }
+  .wtnote{
+    font-size: small;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+    padding-left: 480px;
+    padding-top: 30px;
+
+  }
+  .wtnotep{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+  }
+  .wtnotem{
+    padding-top: 30px;
+    padding-left:350px;
+  }
+  .howit{
+    font-size: small;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+    padding-left: 500px;
+    padding-top: 30px;
+
+  }
+  .howitp{
+    text-align: justify;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    padding-bottom: 400px;
+  }
+  .whereis{
+    font-size: small;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+    padding-left: 500px;
+
+  }
+  .whereisp{
+    
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    text-align: justify;
+  }
+  .whare{
+    font-size: small;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkblue;
+    padding-left: 240px; 
+    padding-top: 30px;
+  }
+  .wharep{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px; 
+    padding-left: 20px;
+  }
+  .howism{
+    padding-left: 370px;
+    padding-top: 30px;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html{
+  height: 100%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+body{
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Robot",sans-serif;
+
+}
+a{
+  text-decoration: none;
+}
+footer{
+  background: #28cce2;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 5px;
+  margin-top: auto;
+}
+footer li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+
+}
+.footer-icons a{
+  background:#28cce2;
+  color: rgb(247, 253, 252);
+  padding: 5px;
+  
+  display: flex;
+  font-size: 25px;
+}
+.footer-icons a:hover{
+  color: #151616;
+
+}
+.footer-menu a{
+  color: #fff;
+
+}
+.footer-menu a:hover{
+  color: #181a17;
+}
+.footer-copyright{
+  background-color: #5b9638;
+  color: rgb(209, 39, 39);
+  padding: 15px;
+  margin-top: 10px;
+  font-size: small;
+
+}
+.footer-copyright p{
+  margin-bottom: 0px;
+  
+}
+.footer-copyright{
+  font-size: smaller;
+}
+.vijay-text{
+  position: absolute;
+  top: 40px;
+  padding-left: 50px;
+  font-size: 40px;
+  text-align: center;
+  color:#151616
+
+
+}
